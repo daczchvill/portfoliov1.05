@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact – Wyatt frehlic · Graphic Designer & Visual Artist</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!--Animated lordicon icons-->
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+</head>
+
+<body id="body">
+
+
+    <!--NAV-->
+    <!--<div class="head-nav">
+        <img src="img/frehlic-logo.png" alt="frehlic logo">
+        <button class="open-nav-menu" id="function-open-nav-menu">
+            <i class="bi bi-list"></i>
+        </button>
+        <nav class="nav" id="nav-menu">
+            <button class="close-nav-menu" id="function-close-nav-menu">
+                <i class="bi bi-x-lg"></i>
+            </button>
+            <ul class="nav-list">
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="shop.html">SHOP</a></li>
+            </ul>
+        </nav>
+    </div>-->
+    <!--END NAV-->
+
+    <!-- NEW NAV-->
+    <nav id="nav-menu" class="sections-nav">
+        <!-- Barra de SECCIONES -->
+        <ul class="sections">
+            <li class="nav-item">
+                <a href="#contact">
+                    <span class="nav-icon"><i class="bi bi-person"></i></span>
+                    <span data-i18n-key="title_contact" class="nav-text">CONTACT</span>
+                </a>
+            </li>
+        </ul>
+
+        <!-- Barra de EXTRAS -->
+        <ul class="extra-nav">
+            <li class="extra-nav-item">
+                <a href="index.html">
+                    <span class="nav-icon">
+                        <lord-icon src="https://cdn.lordicon.com/ixufqqwf.json" trigger="loop" delay="2000"></lord-icon>
+                    </span>
+                    <span data-i18n-key="title_portfolio" class="nav-text">PORTFOLIO</span>
+                </a>
+            </li>
+            <li class="extra-nav-item">
+                <a href="#" onclick="ShopNoAvailable()">
+                    <span class="nav-icon"><i class="bi bi-bag"></i></span>
+                    <span data-i18n-key="title_shop" class="nav-text">SHOP</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- AGREGA FILTRO OSCURO AL ACTIVAR HOVER EN LA BARRA NAV (debe ir justo despues de la nav para que funcione))-->
+    <div id="overlay"></div>
+
+    <!--END NEW NAV-->
+
+
+    <header class="intro-header">
+        <div class="header-text">
+            <h2 data-i18n-key="title_welcome">WELCOME TO MY WEBSITE</h2>
+            <p data-i18n-key="title_welcome_intro">
+                I'm Wyatt, Frehlic also me. here you will find the documents that I have created during my studies at
+                the jobs and projects i have carried throughout my professional career.
+            </p>
+
+            <a data-i18n-key="title_welcome_link" href="index.html">
+                <lord-icon src="https://cdn.lordicon.com/ixufqqwf.json" trigger="loop" delay="2000"
+                    style="transform: scaleX(-1);"></lord-icon>
+                → click to see my work: ←
+                <lord-icon src="https://cdn.lordicon.com/ixufqqwf.json" trigger="loop" delay="2000"></lord-icon>
+            </a>
+
+        </div>
+        <div class="header-image">
+            <img src="img/me_header.png" alt="Wyatt's Image">
+        </div>
+    </header>
+
+
+    <section id="contact">
+        <div class="titulo">
+            <h2 data-i18n-key="title_contact">CONTACT</h2>
+        </div>
+        <div class="contact-text websiteRules">
+            <h6 data-i18n-key="title_aboutMe">ABOUT ME:</h6>
+            <p data-i18n-key="title_aboutMe_text">
+                I’m a multidisciplinary visual artist with a deep passion for animation, digital storytelling, and
+                creative
+                web
+                design.
+                From character animation to motion graphics and HTML/CSS websites, I blend technical skill with artistic
+                sensitivity
+                to bring ideas to life.
+
+                I have experience working across several creative fields — from 2D short films and web content to
+                branding
+                and
+                audio-visual production. I enjoy styles that feel raw, honest, almost childlike — where hand-drawn
+                textures,
+                cutout
+                animation, and imperfections bring charm and emotion to every frame.
+
+                Tools I work with daily include Adobe Photoshop, Illustrator, After Effects, Premiere Pro, and HTML/CSS.
+                I’ve
+                also
+                collaborated on sound editing, storytelling, and graphic design pieces for various projects.
+
+                My current focus is on building a career that bridges visual expression and storytelling, particularly
+                inspired
+                by
+                the Scandinavian animation scene.
+                Always open to new creative collaborations — feel free to reach out or explore some of my work below.
+            </p>
+        </div>
+
+        <div class="contact-socials">
+
+            <!-- WHATSAPP CODE -->
+            <a target="_blank"
+                href="https://api.whatsapp.com/send?phone=573232370461&text=Hola!%20me%20gustaría%20conocer%20acerca%20de%20de%20tu%20trabajo%20!">
+                <i class="bi bi-whatsapp"></i>
+            </a>
+            <!-- LINKEDIN SOCIAL CODE -->
+            <a target="_blank" href="www.linkedin.com/in/wyatt-frehlic">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <!-- EMAIL SOCIAL CODE -->
+            <a target="_blank" href="mailto:danielccontreras1234@gmail.com">
+                <i class="bi bi-envelope"></i>
+            </a>
+            <a target="_blank" href="https://giphy.com/channel/frehlic">
+                <img src="https://assets.pipedream.net/s.v0/app_1dBhwR/logo/orig" alt="">
+            </a>
+            <p>danielccontreras1234@gmail.com</p>
+        </div>
+
+    </section>
+    <footer>
+        <ul class="nav-footer">
+            <li>
+                <a data-i18n-key="title_contact" href="#">CONTACT</a>
+            </li>
+            <li>
+                <a data-i18n-key="title_portfolio" href="index.html">PORTFOLIO</a>
+            </li>
+            <li>
+                <a href="#" onclick="ShopNoAvailable()" data-i18n-key="title_shop">SHOP</a>
+            </li>
+        </ul>
+
+    </footer>
+    <div id="version">
+        <a href="admincv.html">V.1.05</a>
+    </div>
+
+
+
+
+
+    <!-- cambio de tema boton flotante -->
+    <div id="ThemeButton" onclick="ActivateTheme();">
+        <img src="img/piñon1.png" alt="">
+    </div>
+
+    <div id="cont-colors">
+        <div id="Dark-Light">
+            <button id="sol" src="img/sol.png" onclick="LightTheme();"><i
+                    class="bi bi-brightness-high-fill"></i></button>
+            <button id="luna" src="img/luna.png" onclick="DarkTheme();"><i class="bi bi-moon-fill"></i></button>
+        </div>
+        <h4 data-i18n-key="Theme_Personalised">Personalised</h4>
+        <div id="color-buttons">
+            <button id="morado" onclick="PurpleTheme();"></button>
+            <button id="verde" onclick="GreenTheme();"></button>
+            <button id="rosa" onclick="PinkTheme();"></button>
+            <button id="azul" onclick="BlueTheme();"></button>
+        </div>
+
+        <p data-i18n-key="Theme_text">Click for activate the theme <3 </p>
+
+                <div id="languages">
+                    <a onclick="setLanguage('en')"><img src="img/english.png" alt="english"></a>
+                    <a onclick="setLanguage('sv')"><img src="img/swedish.png" alt="swedish"></a>
+                    <a onclick="setLanguage('es')"><img src="img/spanish.png" alt="spanish"></a>
+
+                </div>
+
+    </div>
+    <!-- fin de boton flotante cambio de tema -->
+
+
+
+
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

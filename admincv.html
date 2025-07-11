@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⩖ʎΔ╥</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!--Animated lordicon icons-->
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+</head>
+
+<body id="body">
+
+
+    <!-- BARRA DE NAVEGACION -->
+    <nav id="nav-menu" class="sections-nav">
+        <!-- Barra de SECCIONES -->
+        <ul class="sections">
+            <li class="extra-nav-item">
+                <a href="contact.html">
+                    <span class="nav-icon"><i class="bi bi-house"></i></span>
+                    <span class="nav-text">ABOUT ME</span>
+                </a>
+            </li>
+            <li class="extra-nav-item">
+                <a href="index.html">
+                    <span class="nav-icon">
+                        <lord-icon src="https://cdn.lordicon.com/ixufqqwf.json" trigger="loop" delay="2000"></lord-icon>
+                    </span>
+                    <span class="nav-text">PORTFOLIO</span>
+                </a>
+            </li>
+            <li class="extra-nav-item">
+                <a href="#" onclick="ShopNoAvailable()">
+                    <span class="nav-icon"><i class="bi bi-bag"></i></span>
+                    <span data-i18n-key="title_shop" class="nav-text">SHOP</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- AGREGA FILTRO OSCURO AL ACTIVAR HOVER EN LA BARRA NAV (debe ir justo despues de la nav para que funcione)-->
+    <div id="overlay"></div>
+
+    <!-- FIN BARRA DE NAVEGACION -->
+
+
+
+    <section id="material">
+        <div class="titulo">
+            <h2>DOKUMENT</h2>
+        </div>
+        <div class="Pdf-Cvs">
+            <ul>
+
+
+                <li><a target="_blank"
+                        href="https://ucarecdn.com/58f28771-ecfd-4242-9008-28b3eb6ffb04/WyattContrerasCVes.pdf">CV_es</a>
+                </li>
+                <li><a target="_blank"
+                        href="https://ucarecdn.com/0bd353af-8325-479a-b107-bcd7a3d4b09b/WyattContrerasCVen.pdf">CV_en</a>
+                </li>
+                <li><a target="_blank"
+                        href="https://ucarecdn.com/b8bcf99e-17cf-49d4-9e84-26fb95a2f3a2/WyattContrerasCVsv.pdf">CV_sv</a>
+                </li>
+                <li><a target="_blank"
+                        href="https://ucarecdn.com/ebf5025d-9001-4cf6-bdcb-199696bf5535/Personligtbrev.psd">PSD
+                        Personligt Brev
+                    </a>
+                </li>
+
+                <li><a target="_blank"
+                        href="https://ucarecdn.com/3fa2ec6a-9f6e-46e3-b364-1d352646fb1c/GradesforWyattContreras_LearningSwedish2022.pdf">LEARNING
+                        SWEDISH</a></li>
+                <li><a target="_blank"
+                        href="https://ucarecdn.com/b3214243-04e0-4b1b-86de-d488a8d0dbbb/CERTIFICADOFINALPM.pdf">MULTIMEDIAPRODUCENT</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://daczchvill.github.io/portafoliov1.04/home_sv.html">
+                        web V.1.04
+                    </a>
+                </li>
+
+
+
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <ul class="nav-footer">
+            <li>
+                <a data-i18n-key="title_contact" href="#">CONTACT</a>
+            </li>
+            <li>
+                <a data-i18n-key="title_portfolio" href="index.html">PORTFOLIO</a>
+            </li>
+            <li>
+                <a href="#" onclick="ShopNoAvailable()" data-i18n-key="title_shop">SHOP</a>
+            </li>
+        </ul>
+
+    </footer>
+
+
+    <!-- cambio de tema boton flotante -->
+    <div id="ThemeButton" onclick="ActivateTheme();"><img src="img/piñon1.png" alt=""></div>
+    <div id="cont-colors">
+        <div id="Dark-Light">
+            <button id="sol" src="img/sol.png" onclick="LightTheme();"><i
+                    class="bi bi-brightness-high-fill"></i></button>
+            <button id="luna" src="img/luna.png" onclick="DarkTheme();"><i class="bi bi-moon-fill"></i></button>
+        </div>
+        <h4 data-i18n-key="Theme_Personalised">Personalised</h4>
+        <div id="color-buttons">
+            <button id="morado" onclick="PurpleTheme();"></button>
+            <button id="verde" onclick="GreenTheme();"></button>
+            <button id="rosa" onclick="PinkTheme();"></button>
+            <button id="azul" onclick="BlueTheme();"></button>
+        </div>
+
+        <p data-i18n-key="Theme_text">Click for activate the theme <3 </p>
+
+                <div id="languages">
+                    <a href="#" onclick="setLanguage('en')"><img src="img/english.png" alt="english"></a>
+                    <a href="#" onclick="setLanguage('sv')"><img src="img/swedish.png" alt="swedish"></a>
+                    <a href="#" onclick="setLanguage('es')"><img src="img/spanish.png" alt="spanish"></a>
+
+                </div>
+
+    </div>
+    <!-- fin de boton flotante cambio de tema -->
+
+
+    <!-- PUBLICIDAD DE LUNASTRAR -->
+    <div id="mensajeluna" data-aos="fade-left">
+        <p>Learn with <br><img src="img/logoluna.png" alt=""> Lunastrar <br><u><a target="_blank"
+                    href="https://www.youtube.com/watch?v=B9JJPleiE5s">See more</a></u></p>
+    </div>
+    <!-- FIN PUBLICIDAD DE LUNASTRAR -->
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
