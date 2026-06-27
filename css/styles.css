@@ -447,11 +447,13 @@ ul {
 
 /* INICIO CONTACTO */
 
-#version {
-    background: #CABFAF;
+#version a{
+    text-decoration: none;
+    color: #4a2f35;
     text-align: left;
     font-size: 8px;
 }
+
 
 /*  END PAG CONTACT *//*  END PAG CONTACT *//*  END PAG CONTACT *//*  END PAG CONTACT */
 /*  END PAG CONTACT *//*  END PAG CONTACT *//*  END PAG CONTACT *//*  END PAG CONTACT */
@@ -542,7 +544,7 @@ ul {
 }
 
 .nyhet-media-thumbails {
-    padding: 10px;
+    padding: 12px;
     background: #cbbfaf;
     text-align: left;
     overflow-x: auto;
@@ -551,7 +553,7 @@ ul {
     /* evita barra vertical innecesaria */
     border-radius: 7px;
     display: flex;
-    gap: 5px;
+    gap: 12px;
     white-space: nowrap;
     /* evita que las miniaturas bajen de línea */
     -webkit-overflow-scrolling: touch;
@@ -561,7 +563,7 @@ ul {
 .nyhet-media-thumbails img {
     flex: 0 0 auto;
     /* evita que las miniaturas se encojan o crezcan */
-    height: 200px;
+    height: 180px;
     width: auto;
     background: #6c6746;
     border-radius: 8px;
@@ -591,7 +593,7 @@ ul {
     display: flex;
     flex-direction: column;
 }
-.art-concepts {
+.concept-art {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -617,9 +619,9 @@ ul {
 }
 
 
-.art-concepts img {
+.concept-art img {
     position: relative;
-    width: 80%;
+    width: 68%;
     height: auto;
     border-radius: 5px;
     transition: 0.3s;
@@ -629,7 +631,7 @@ ul {
     /* Sombra sin acercar */
 }
 
-.art-concepts img.hovered {
+.concept-art img.hovered {
     scale: 1.1;
     /* Suavizado el zoom */
     z-index: 9;
@@ -640,8 +642,8 @@ ul {
     /* sombra al acercar */
 }
 
-.art-concepts img.prev1,
-.art-concepts img.next1 {
+.concept-art img.prev1,
+.concept-art img.next1 {
     scale: 1.03;
     /* Suavizado el zoom */
     z-index: 4;
@@ -649,15 +651,15 @@ ul {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-.art-concepts img.prev2,
-.art-concepts img.next2 {
+.concept-art img.prev2,
+.concept-art img.next2 {
     scale: 1.05;
     z-index: 3;
     background: #f5f5f5;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
-.art-concepts>div {
+.concept-art>div {
     text-align: center;
 }
 
