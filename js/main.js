@@ -190,7 +190,7 @@ prevButtons.forEach(prev => {
 
 //EFFECT HOVER ON THUMBAILS
 // EFFECT HOVER ON THUMBNAILS
-const containers = document.querySelectorAll('.art-concepts > div');
+const containers = document.querySelectorAll('.concept-art > div');
 containers.forEach((container, index) => {
   const img = container.querySelector('img');
   img.addEventListener('mouseover', (event) => {
